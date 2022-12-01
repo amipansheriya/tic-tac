@@ -1,0 +1,86 @@
+/* indie-flower-regular - latin */
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/indie-flower-v17-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/indie-flower-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/indie-flower-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/indie-flower-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/indie-flower-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/indie-flower-v17-latin-regular.svg#IndieFlower') format('svg'); /* Legacy iOS */
+  }
+  body{
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    background-color: black;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box{
+    width: 130px;
+    background-color: transparent;
+    box-shadow: 5px 5px 0px rgb(130, 130, 130) inset,-5px -5px 0px rgb(196, 196, 196) inset;
+    outline: none !important;
+    color: white !important;
+    text-align: center !important;
+    font-size: 100px;
+  }
+  .tic-tac{
+    margin: auto;
+    border: 1px solid white;
+    margin-top: 50px;
+    width: 400px;
+    padding: 5px;
+  }
+  .fdiv{
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .mdiv{
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .ldiv{
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .win{
+    margin: auto;
+    width: fit-content;
+  }
+  .win .won{
+    background-color: transparent;
+    border: none;
+    color: white !important;
+    text-align: center !important;
+    font-size: 30px;
+    margin: 30px;
+    color: burlywood;
+    font-family: cursive;
+  }
+  .reset{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .reset input{
+    padding: 10px 20px !important;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: capitalize;
+  }
+  .box:active{
+    background-color: gray;
+    color: black;
+  }
+
+
+  
